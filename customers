@@ -1,0 +1,46 @@
+customers = {Ross : 989, Monica: 1345, Rachel:2569, Chandler:3590}
+print("Which discount do you want to know? Customers: Rachel, Monica, Chandler, Ross")
+
+r = null
+if customer[Ross] <= 2000:
+	r = "5%"
+elif customer[Ross] >2000 and <3000:
+	r = "10%"
+else:
+	r = "15%"
+
+m = null
+if customer[Monica] <= 2000:
+	m = "5%"
+elif customer[Monica] >2000 and <3000:
+	m = "10%"
+else:
+	m = "15%"
+
+h = null
+if customer[Rachel] <= 2000:
+	h = "5%"
+elif customer[Rachel] >2000 and <3000:
+	h = "10%"
+else:
+	h = "15%"
+
+c = null
+if customer[Chandler] <= 2000:
+	c = "5%"
+elif customer[Chandler] >2000 and <3000:
+	c = "10%"
+else:
+	c = "15%"
+
+a = input()
+if a == "Ross":
+	print(r)
+elif a == "Monica":
+	print(m)
+elif a == "Rachel":
+	print(h)
+elif a == "Chandler":
+	print(c)
+else: 
+	print("We haven't this customer")
